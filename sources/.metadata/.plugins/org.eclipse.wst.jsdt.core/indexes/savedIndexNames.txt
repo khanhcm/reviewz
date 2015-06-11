@@ -1,0 +1,8 @@
+INDEX VERSION 1.3+E:\BaiGiang\HocKy8\ChuyenDeJ2EE\DoAn\sources\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+4110918130.index
+693748432.index
+3348926814.index
+2844152663.index
+2765198492.index
+692904555.index
+515419233.index

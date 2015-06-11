@@ -1,0 +1,56 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ page session="false"%>
+<%@page contentType="text/html; charset=UTF-8" %>
+<html>
+<head>
+<link rel="stylesheet" type="text/css"
+	href="<c:url value = "/resources/css/bootstrap.min.css" />" />
+<link rel="stylesheet" type="text/css"
+	href="<c:url value = "/resources/css/bootstrap-theme.min.css" />" />
+<script type="text/javascript"
+	src="<c:url value = "/resources/js/bootstrap.min.js" />"></script>
+<script type="text/javascript"
+	src="<c:url value = "/resources/js/jquery-1.11.3.min.js" />"></script>
+<title>ReviewZ - Web site đánh giá sản phẩm điện tử hàng đầu
+	Việt Nam</title>
+</head>
+<body>
+	<header>
+		<img alt="Logo" src="<c:url value = "/resources/img/logo.png"/>" />
+		<nav id="myNavbar" class="navbar navbar-default" role="navigation">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="container">
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse"
+					id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li><a href="#">Trang chủ</a></li>
+						<li><a href="#">Cá nhân</a></li>
+						<li class="dropdown"><a href="#" data-toggle="dropdown"
+							class="dropdown-toggle">Tin nhắn <b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Inbox</a></li>
+								<li><a href="#">Drafts</a></li>
+								<li><a href="#">Sent Items</a></li>
+								<li class="divider"></li>
+								<li><a href="#">Trash</a></li>
+							</ul></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li class="dropdown"><a href="#" data-toggle="dropdown"
+							class="dropdown-toggle">Admin <b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Action</a></li>
+								<li><a href="#">Another action</a></li>
+								<li class="divider"></li>
+								<li><a href="#">Settings</a></li>
+							</ul></li>
+					</ul>
+				</div>
+				<!-- /.navbar-collapse -->
+			</div>
+		</nav>
+	</header>
+	<footer> </footer>
+</body>
+</html>
